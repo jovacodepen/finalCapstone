@@ -1,0 +1,64 @@
+
+<!-- The HTML on each page is based on the bootsrap 5 CSS framework. It also differs from my previous task website as the previous task website didn't lend itself easily to the requirements of the capstone task  -->
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./dist/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/styles/styles.css">
+
+    <title>Sam's pantry</title>
+  </head>
+  <body>
+
+    <!-- This is the navigation bar with markup to switch between pages  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipes.html">All recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comments.html">Comments</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header container styled to full size of the page as an index page   -->
+      <header>
+          <div class="container" id="header-container">
+              <div class="row" id="header-row">
+                  <div class="col-sm-12" id="header-column">
+                      <h1 class="header-heading">Sam's Pantry</h1>
+                      <p class="header-copy">If you're planning to cook tasty recipes this week, then head to Sam's recipe page to provide you with some inspiration</p>
+                      <a href="recipes.html" class="btn btn-primary recipe-btn">Recipes</a>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./dist/scripts/script.js"></script>
+  </body>
+</html>
