@@ -24,7 +24,7 @@ The index page includes a button to navigate to the available recipes in the web
 ![Index Page](dist/images/index.png)
 
 The recipes page includes a list of recipes. Users can add them to their favourites and like the recipes 
-![Recipe Page](dist/images/recipes.png)
+![Recipe Page](dist/images/allrecipes.png)
 
 The my recipes page includes a list of recipes the user has saved. Users can then add comments to their recipes, unsave or unlike recipes
 ![myrecipe Page](dist/images/myrecipes.png)
